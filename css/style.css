@@ -507,7 +507,7 @@ address {
 .skills {
   margin: 1em 0;
 }
-.skills h3 {
+.company h3, .skills h3, .education h3 {
   padding: 5px 98px 5px 5px;
 }
 .skill1 ul, .skill2 ul {
