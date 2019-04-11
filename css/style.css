@@ -329,9 +329,9 @@ h3.clr3{
 .skill1, .skill2 {
   float: left;
 }
-.skills h3 {
+.skills h3, .company h3, .skills h3, .education h3 {
     padding: 5px 98px 5px 16px;
-    width: 100%;
+    width: 101%;
     font-size: 14px;
 }
 .skill1 ul li,.skill2 ul li{
@@ -423,7 +423,7 @@ address {
 }
 @media (max-width: 480px){
 .content {
-  margin-right: 2em;
+  margin-right: 3px;
 }
 .glyphicon-save:before, .glyphicon-print:before, .glyphicon-envelope:before, .glyphicon-picture:before {
   margin-right: 6px;
@@ -493,9 +493,7 @@ address {
 .company_details, .education_details,.skill_info  {
   padding: 1em 0 0em 1em;
 }
-.company h3 {
-  padding: 5px 41px 5px 16px;
-}
+
 .company_details h4, .education_details h4 {
   font-size: 0.9em;
 }
