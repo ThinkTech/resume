@@ -162,7 +162,7 @@ address span{
 	font-size:0.9em;
 }
 .company_details p,.skill_info p,.education_details p{
-	color:#999;
+	color:#6d6c6c;
 	font-weight:300;
 	line-height:1.7em;
 }
@@ -510,7 +510,7 @@ address {
   padding: 5px 98px 5px 16px;
 }
 .skill1 ul, .skill2 ul {
-  padding-left: 2em;
+  padding-left: 1.3em;
 }
 .skill1 ul li, .skill2 ul li {
   font-size: 0.75em;
