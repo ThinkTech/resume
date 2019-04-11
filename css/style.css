@@ -263,6 +263,11 @@ h3.clr3{
 .sidebar h1 {
   font-size: 2em;
 }
+.title {
+  font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
 }
 @media (max-width: 1024px){
 .sidebar {
@@ -285,8 +290,11 @@ h3.clr3{
   margin-left: 21.666667%;
   width: 78%;
 }
-.sidebar h1 {
+.sidebar h1,.title {
   font-size: 1.4em;
+}
+.skills {
+    margin: 1em 0;
 }
 .sidebar img {
   padding: 0.5em;
@@ -523,7 +531,7 @@ address {
 }
 }
 @media (max-width: 375px){
-.sidebar h1 {
+.sidebar h1, .title {
   font-size: 1.1em;
   white-space: nowrap;
 }
@@ -554,6 +562,10 @@ address span {
 @media (max-width: 320px){
 .sidebar_top {
   width: 50%;
+}
+.title {
+  font-size: 1em;
+  white-space: nowrap;
 }
 .sidebar img {
   width: 80%;
