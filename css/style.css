@@ -149,7 +149,7 @@ address span{
 	font-family: 'Varela Round', sans-serif;
 }
 .company_details h4 span,.education_details h4 span{
-	font-size: 0.65em;
+	font-size: 0.75em;
     margin-left: 5px;
     color: #999;
     font-weight: 400;
@@ -498,7 +498,7 @@ address {
   font-size: 0.9em;
 }
 .company_details h6, .education_details h6 {
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 .company {
   margin: 1em 0;
