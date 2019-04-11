@@ -6,6 +6,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 */
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
+h3, .h3 {
+    font-size: 20px;
+}
 ul, ol {margin: 0; padding:0;}
 p {margin: 0;}
 html, body{
@@ -31,7 +34,7 @@ a:focus {
 }
 /*-- header_top --*/
 .sidebar{
-  background:#6ecadc;
+  background:#71290d;
   top: 0px;
   padding:2em 30px;
 }
@@ -58,12 +61,12 @@ a:focus {
 }  
 
 .details p{
-	color:#101010;
+	color:#ccbbbb;
 	font-size:0.9em;
 	margin:5px 0 2em 0;
 }
 .details p a{
-	color:#101010;
+	color:#ccbbbb;
 	font-size:0.9em;
 }
 address h3{
@@ -71,7 +74,7 @@ address h3{
 }
 address span{
 	display:block;
-	color:#101010;
+	color:#ccbbbb;
 	font-size:0.9em;
 	line-height:1.5em;
 }
@@ -88,7 +91,7 @@ address span{
 .glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
     margin-right: 9px;
   font-size: 14px;
-  color: #6ecadc;
+  color: #71290d;
 }
 .details_header{
 	padding: 0em 1em 0 2em;
@@ -101,7 +104,7 @@ address span{
 	color:#333;
 }
 .details_header ul li a:hover{
-	color:#6ecadc;
+	color:#71290d;
 }
 .company {
 	margin:2em 0;
@@ -119,6 +122,17 @@ address span{
 .company_details,.education_details {
 	padding:1.5em 0 0em 2em;
 }
+.company_details .skill1 {
+	float : none;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.company_details hr {
+	border-bottom: 3px dashed #999;
+    padding-bottom: 1em;
+}
+
 .company_details h4,.education_details h4{
 	color:#333;
 	font-weight:600;
@@ -126,15 +140,25 @@ address span{
 	margin-bottom:6px;
 	font-family: 'Varela Round', sans-serif;
 }
+
+.company_details h5,.education_details h5{
+	color:#333;
+	font-weight:600;
+	font-size:1em;
+	margin-top:15px;
+	font-family: 'Varela Round', sans-serif;
+}
 .company_details h4 span,.education_details h4 span{
 	font-size: 0.65em;
-  margin-left: 5px;
-  color: #999;
-  font-weight:400;
+    margin-left: 5px;
+    color: #999;
+    font-weight: 400;
+    display: inline-block;
+    float: right;
 }
 .company_details h6,.education_details h6{
 	font-weight:400;
-	margin-bottom:1.3em;
+	margin-bottom:10px;
 	font-size:0.9em;
 }
 .company_details p,.skill_info p,.education_details p{
@@ -155,9 +179,9 @@ address span{
 .skill_list{
 	padding:1.5em 0 0 2em;
 }
-.skill1,.skill2{
-	 float:left;
-	 width:30%;
+.skill1, .skill2 {
+    float: left;
+    width: 100%;
 }
 .skill1 h4,.skill2 h4{
 	color:#333;
@@ -178,7 +202,8 @@ address span{
   display: inline-block;
 }
 h3.clr1{
-	background:#6ecadc;
+	background:#71290d;
+	width: 50%;
 }
 h3.clr2{
 	background:#e9a820;
@@ -280,8 +305,9 @@ h3.clr3{
   padding: 0 1em;
   font-size: 0.9em;
 }
-.company h3,.skills h3,.education h3{
-  font-size: 1.2em;
+.company h3, .skills h3, .education h3 {
+    font-size: 14px;
+    width: 100%;
 }
 .company_details h4, .education_details h4 {
   font-size: 1.1em;
@@ -292,12 +318,19 @@ h3.clr3{
 .company_details p, .skill_info p, .education_details p {
   font-size: 0.8em;
 }
+.company_details h5, .education_details h5, .company_details span {
+    font-size: 13px;
+}
 .cmpny1 {
   padding-bottom: 1.5em;
 }
 .skill1, .skill2 {
   float: left;
-  width: 50%;
+}
+.skills h3 {
+    padding: 5px 98px 5px 16px;
+    width: 100%;
+    font-size: 14px;
 }
 .skill1 ul li,.skill2 ul li{
 	font-size:0.85em;
@@ -473,9 +506,6 @@ address {
 .skills {
   margin: 1em 0;
 }
-.company h3, .skills h3, .education h3 {
-  font-size: 1em;
-}
 .skills h3 {
   padding: 5px 98px 5px 16px;
 }
@@ -498,6 +528,7 @@ address {
 @media (max-width: 375px){
 .sidebar h1 {
   font-size: 1em;
+  white-space: nowrap;
 }
 .sidebar img {
   width: 70%;
