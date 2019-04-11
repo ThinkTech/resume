@@ -328,6 +328,7 @@ h3.clr3{
 }
 .skill1, .skill2 {
   float: left;
+  margin-left: -2px;
 }
 .skills h3, .company h3, .skills h3, .education h3 {
     padding: 5px 98px 5px 16px;
