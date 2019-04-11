@@ -530,7 +530,7 @@ address {
 }
 @media (max-width: 375px){
 .sidebar h1 {
-  font-size: 1em;
+  font-size: 1.1em;
   white-space: nowrap;
 }
 .sidebar img {
