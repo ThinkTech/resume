@@ -517,7 +517,7 @@ address {
   padding-left: 0px;
 }
 .skill1 ul li, .skill2 ul li {
-  font-size: 0.75em;
+  font-size: 0.74em;
 }
 .skill_list {
   padding: 0.5em 0 0 1.5em;
@@ -562,8 +562,34 @@ address span {
 .sidebar_top {
   width: 50%;
 }
+.skill1 ul li, .skill2 ul li {
+  font-size: 0.63em;
+}
+
+.skills h3, .company h3, .skills h3, .education h3 {
+    padding: 5px 98px 5px 16px;
+    width: 106%;
+    font-size: 12px;
+}
+
+.company_details h4, .education_details h4 {
+    font-size: 0.8em;
+}
+
+.company_details h6, .education_details h6 {
+    font-size: 0.7em;
+}
+
+.company_details p, .skill_info p, .education_details p {
+    font-size: 0.7em;
+}
+
+.company_details h5, .education_details h5, .company_details span {
+    font-size: 0.7em;
+}
+
 .title {
-  font-size: 1em;
+  font-size: 0.9em;
   white-space: nowrap;
 }
 .sidebar img {
